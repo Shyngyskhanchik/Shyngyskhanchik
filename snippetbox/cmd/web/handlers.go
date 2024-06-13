@@ -12,7 +12,7 @@ func home(w http.ResponseWriter, r *http.Request) {
 		return
 	}
 
-	w.Write([]byte("Привет из Snippetbox my name is Shyngyskhan"))
+	w.Write([]byte("Привет из Snippetbox"))
 }
 
 func showSnippet(w http.ResponseWriter, r *http.Request) {
