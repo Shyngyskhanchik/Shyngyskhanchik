@@ -18,7 +18,7 @@ func home(w http.ResponseWriter, r *http.Request) {
 		return
 	}
 
-	w.Write([]byte("Привет из Snippetbox"))
+	w.Write([]byte("Привет из Snippetboxmy name is Shyngyskhan"))
 }
 
 // Обработчик для отображения содержимого заметки.
